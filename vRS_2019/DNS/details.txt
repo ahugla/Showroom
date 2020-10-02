@@ -1,0 +1,22 @@
+Fonctionne avec DNSmasq
+-----------------------
+
+
+config DNSmasq
+--------------
+Dans: /etc/dnsmasq.conf
+
+
+
+Fichier hosts
+-------------
+/etc/hosts
+
+
+
+Structure des scripts sur le cpod routeur
+-----------------------------------------
+
+Dans /root/alex/add.sh
+                remove.sh
+                clean.sh

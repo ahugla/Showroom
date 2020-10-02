@@ -1,0 +1,68 @@
+# Begin /etc/hosts (network card version)
+
+::1         localhost ipv6-localhost ipv6-loopback
+127.0.0.1   localhost.localdomain
+127.0.0.1       localhost
+172.19.2.1      cpodrouter cpod
+# End /etc/hosts (network card version)
+172.19.2.2      cpodfiler
+172.19.2.25     esx-05 #nested
+172.19.2.24     esx-04
+172.19.2.23     esx-03
+172.19.2.22     esx-02
+172.19.2.21     esx-01
+172.19.2.3      vcsa
+172.19.2.4      nsx
+172.19.2.9      edge1-cpod-vr
+
+
+# vRealize
+172.19.2.50     vrlcm
+172.19.2.51     vra
+172.19.2.55     vidm
+172.19.2.56     vrops
+172.19.2.57     vrli
+172.19.2.58     wvfp
+172.19.2.59     proxy-cas           # vra cloud proxy officiel - Alex - "FR_cPOD_vRealize" dans CAS
+172.19.2.60     abx                 # vra cloud proxy pour abx David
+172.19.2.61     vro-appliance-saas      # vra cloud orchestrator
+172.19.2.62     vro-for-saas
+172.19.2.63     vrli2
+172.19.2.64     gitlab
+172.19.2.65     proxybnp       # vra cloud proxy pour BNP
+172.19.2.66     vrarc          # application remote collector de vrops
+
+
+# vRA deployed VM (update should be automated)
+172.19.2.102 vra-000047.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.100 vra-000053.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.104 vra-000057.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.105 vra-000056.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.106 vra-000059.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.108 vra-000058.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.107 vra-000055.cpod-vrealizesuite.az-demo.shwrfr.com
+172.31.17.86 vra-000078.cpod-vrealizesuite.az-demo.shwrfr.com
+172.31.23.32 vra-000080.cpod-vrealizesuite.az-demo.shwrfr.com
+172.31.23.161 vra-000079.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.217 vra-000263.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.209 vra-000346.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.207 vra-000348.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.206 vra-000399.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.135 vra-000642.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.133 vra-000644.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.200 vra-000688.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.208 vra-000765.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.218 vra-000844.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.119 vra-001173.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.136 vra-001186.cpod-vrealizesuite.az-demo.shwrfr.com
+10.0.0.6 vra-001196.cpod-vrealizesuite.az-demo.shwrfr.com
+10.0.0.9 vra-001198.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.224 debug-config-test3-001226.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.214 vra-001309.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.215 vra-001310.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.213 vra-001313.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.203 vra-001374.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.204 vra-001416.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.113 vra-001443.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.219 vra-001451.cpod-vrealizesuite.az-demo.shwrfr.com
+172.19.2.205 vra-001452.cpod-vrealizesuite.az-demo.shwrfr.com
