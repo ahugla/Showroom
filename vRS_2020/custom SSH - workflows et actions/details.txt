@@ -1,0 +1,8 @@
+
+workflows : 
+  - Execute SSH script day2 action
+  - Execute SSH script
+
+Action:
+  - getVMByName
+  
