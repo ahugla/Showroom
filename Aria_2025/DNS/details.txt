@@ -1,0 +1,11 @@
+Fonctionne avec DNSmasq
+-----------------------
+
+
+
+Structure des scripts sur le cpod routeur
+-----------------------------------------
+
+Dans /root/alex/add.sh
+                remove.sh
+                clean.sh
